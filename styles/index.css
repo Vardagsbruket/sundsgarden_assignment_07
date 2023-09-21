@@ -30,3 +30,13 @@
     flex-shrink: 0;
     background: #FFB039;
 }
+.button {
+    width: 202px;
+    height: 48px;
+    flex-shrink: 0;
+    border: none;
+    color: white;
+    border-radius: 40px;
+    background-color: #468189;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.50);
+}
