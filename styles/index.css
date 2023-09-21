@@ -10,7 +10,7 @@
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     line-height: normal;
     letter-spacing: 1.8px;
     text-transform: uppercase;
@@ -42,6 +42,9 @@
     background-color: #468189;
     box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.50);
 }
+.button:hover {
+    background-color: #FFB039;
+}
 #regarding, #message, #email, #name {
     background-color: #BE0909;
     
@@ -52,4 +55,19 @@
     flex-shrink: 0;
     position: relative;
     right: 267px;
+}
+.input-field, .textarea {
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+    
+}
+::placeholder {
+    color: #FEFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    letter-spacing: 5.4px;
 }
