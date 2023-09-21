@@ -20,7 +20,7 @@
 .red {
     background: #BE0909;
     box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.25);
-    width: 954px;
+    width: 609px;
     height: 594px;
     flex-shrink: 0;
 }
@@ -34,9 +34,22 @@
     width: 202px;
     height: 48px;
     flex-shrink: 0;
+    align-self: center;
+    margin-top: 56px;
     border: none;
     color: white;
     border-radius: 40px;
     background-color: #468189;
     box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.50);
+}
+#regarding, #message, #email, #name {
+    background-color: #BE0909;
+    
+}
+#duck {
+    width: 663px;
+    height: 603px;
+    flex-shrink: 0;
+    position: relative;
+    right: 267px;
 }
