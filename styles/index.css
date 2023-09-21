@@ -1,0 +1,32 @@
+.container-form {
+    display: inline-flex;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    width: 400px;
+    color: #FEFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    margin-top: 65px;
+    margin-left: 65px;
+}
+.red {
+    background: #BE0909;
+    box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.25);
+    width: 954px;
+    height: 594px;
+    flex-shrink: 0;
+}
+.yellow {
+    width: 345px;
+    height: 594px;
+    flex-shrink: 0;
+    background: #FFB039;
+}
