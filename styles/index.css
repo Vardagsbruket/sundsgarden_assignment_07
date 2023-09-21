@@ -21,6 +21,7 @@ body {
     text-transform: uppercase;
     margin-top: 65px;
     margin-left: 65px;
+    cursor: text;
 }
 .red {
     background: #BE0909;
@@ -47,6 +48,10 @@ body {
     background-color: #468189;
     box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.50);
 }
+.button:disabled {
+    background-color: #BE0909;
+    opacity: 0.6;
+}
 .button:hover {
     background-color: #FFB039;
 }
@@ -65,7 +70,10 @@ body {
     color: white;
     border: none;
     border-bottom: 1px solid white;
-    
+}
+#name:hover, #message:hover, #regarding:hover, #email:hover {
+    background-color: #FFB039;
+    opacity: 0.7;
 }
 ::placeholder {
     color: #FEFFFF;
